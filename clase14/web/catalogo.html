@@ -16,6 +16,7 @@
 <header>
     <nav>
         <ul>
+            
             <li><a href="index.html">Inicio</a></li>
             <li><a href="catalogo.html">Catalogo</a></li>
             <li><a href="contact.html">Contacto</a></li>
@@ -23,66 +24,51 @@
     </nav>
 </header>
 <main>
-<aside><img class="logo" src="images/logo.jpg" alt="laVerdu"></aside>
-<article>
-    <h1>Nuestros Productos</h1>
+    <h1 class="titulocatalogo">Nuestros Productos</h1>
+    
     <section class="columns-desktop">
+        <div class="grid">
         <div class="element">
             <img class="imagesfruta" src="images/manzroja.jpg" alt="ManzanaRoja">
             <div class="elementinformation">
+                <div class="title">Manzana Roja</div>
+                
+                <div class="price"> $180 el kg</div>
+               
+                
+            </div>
+            <p>Manzanas deliciosas de Rio Negro</p>
+            <button data-order ="manzroja">Comprar</button>
+        
+        </div>
+        <div class="element">
+            <img class="imagesfruta" src="images/banana.jpg" alt="banana">
+            <div class="elementinformation">
                 <div class="title"></div>
-                Manzana Roja
+                Banana Ecuatoriana
                 <div class="price"></div>
                 $180 el kg
                 
             </div>
-            <p>Manzanas deliciosas de Rio Negro</p>
-            <button>Comprar</button>
+            <p>las mejores bananas</p>
+            <button data-order ="banana">Comprar</button>
+        
         </div>
-
-    </section>
-</article>
-<article>
-   
-    <section class="columns-desktop">
         <div class="element">
-            <img class="imagesfruta" src="images/tomate.jpg" alt="Tomate Redondo">
+            <img class="imagesfruta" src="images/manzverde.jpg" alt="ManzanaVerde">
             <div class="elementinformation">
                 <div class="title"></div>
-                Tomate Redondo
+                Manzana Verde
                 <div class="price"></div>
-                $120 el kg
+                $200 el kg
                 
             </div>
-            <p>Tomate Redondo jugosos</p>
-            <button>Comprar</button>
+            <p>Manzanas verdes jugosas</p>
+            <button data-order ="manzverde">Comprar</button>
+        
         </div>
-
-    </section>
-</article>
-<article>
-   
-    <section class="columns-desktop">
         <div class="element">
-            <img class="imagesfruta" src="images/banan.jpg" alt="Banana">
-            <div class="elementinformation">
-                <div class="title"></div>
-               Banana
-                <div class="price"></div>
-                $150 el kg
-                
-            </div>
-            <p>Banana Ecuatoriana</p>
-            <button>Comprar</button>
-        </div>
-
-    </section>
-</article>
-<article>
-   
-    <section class="columns-desktop">
-        <div class="element">
-            <img class="imagesfruta" src="images/pera.jpg" alt="Peras">
+            <img class="imagesfruta" src="images/pera.jpg" alt="pera">
             <div class="elementinformation">
                 <div class="title"></div>
                 Peras
@@ -90,9 +76,50 @@
                 $160 el kg
                 
             </div>
-            <p>Peras de agua</p>
-            <button>Comprar</button>
+            <p>Peras de la patagonia</p>
+            <button data-order ="pera">Comprar</button>
+        
         </div>
+        <div class="element">
+            <img class="imagesfruta" src="images/cebmorada.jpg" alt="cebollaMorada">
+            <div class="elementinformation">
+                <div class="title"></div>
+                Cebolla Morada
+                <div class="price"></div>
+                $80 el kg
+                
+            </div>
+            <p>ebollas moradisimas</p>
+            <button data-order ="cebmorada">Comprar</button>
+        
+        </div>
+        <div class="element">
+            <img class="imagesfruta" src="images/tomate.jpg" alt="tomate">
+            <div class="elementinformation">
+                <div class="title"></div>
+               Tomates
+                <div class="price"></div>
+                $120 el kg
+                
+            </div>
+            <p>Tomates redondos</p>
+            <button data-order ="tomate">Comprar</button>
+        
+        </div>
+        <div class="element">
+            <img class="imagesfruta" src="images/CebollaVerde.jpg" alt="CebollaVerde">
+            <div class="elementinformation">
+                <div class="title"></div>
+                Cebolla verde
+                <div class="price"></div>
+                $380 el kg
+                
+            </div>
+            <p>Cebollas verdes finas</p>
+            <button data-order ="CebollaVerde">Comprar</button>
+        
+        </div>
+    </div>
 
     </section>
 </article>
@@ -108,5 +135,6 @@
 </footer>
     
 </body>
+<script src="catalogo.js"> </script>
 </html>
 
